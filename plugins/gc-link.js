@@ -4,9 +4,9 @@ let group = m.chat
 conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾',
-body: '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ',         
+body: '𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ',         
 previewType: 0, thumbnail: fs.readFileSync("./src/Menu2.jpg"),
-sourceUrl: `https://github.com/Yovanihades1212/HADES-BOT-MDV2`}}})   
+sourceUrl: `https://github.com/Lucky-Cv/luck`}}})   
 }
 handler.help = ['linkgroup']
 handler.tags = ['group']
