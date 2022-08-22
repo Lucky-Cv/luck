@@ -5,7 +5,8 @@ conn.sendHydrated(m.chat, null, null, res, null, null, null, null, [['◀️𝚂
 handler.help = ['videoxxx']
 handler.tags = ['random']
 handler.command = /^videos|vídeos$/i
-handler.limit = 2
+handler.limit = 5
+handler.admin = true
 export default handler
 
 function pickRandom(list) {
