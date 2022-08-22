@@ -13,5 +13,6 @@ handler.tags = ['group']
 handler.command = /^link(gro?up)?$/i
 handler.limit = 1
 handler.group = true
+handler.admin = true
 handler.botAdmin = true
 export default handler
