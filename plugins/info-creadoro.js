@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = 'https://i.imgur.com/lkch77g.jpeg' 
+let pp = './src/Lucky.jpg' 
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let texto1 = `
@@ -20,7 +20,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'http://wa.me/31643694252',
+'mediaUrl': 'http://wa.me/34643694252',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'http://wa.me/34643694252',
