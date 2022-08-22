@@ -98,7 +98,7 @@ return false
 })}
 
 async function connectionUpdate(update) {
-let pp = './src/nuevobot.jpg'
+let pp = './src/Lucky.jpg'
 const { connection, lastDisconnect, isNewLogin } = update
 if (isNewLogin) conn.isInit = true
 const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode
