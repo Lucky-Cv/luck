@@ -14,5 +14,5 @@ handler.tags = ['owner']
 handler.command = /^banuser$/i
 handler.limit = 1
 handler.group = true
-handler.admin = true 
+handler.rowner = true
 export default handler
